@@ -1,0 +1,152 @@
+body
+{
+    background-image: url(./img/pexels-photo-616401.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+.hide{
+    display: none;
+}
+.firstbutton
+{
+    text-align: center;
+    padding: 20px 0;
+}
+.btns
+{
+    background-color: black;
+    padding: 40px 70px;
+    margin-right: 30px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.head
+{
+    margin: 0 auto;
+    background-color: rgb(185, 122, 122);
+    padding: 50px 50px;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    border: 6px solid rgb(31, 31, 31);
+    min-height: 200px;
+    
+}
+.head h1
+{
+    color: black;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+.head h2
+{
+    color: rgb(59, 59, 59);
+    font-family: cursive;
+}
+.head input
+{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 5px;
+    margin-top: 20px;
+    margin-bottom:30px ;
+    border: 0;
+    border-radius:5px ;
+    color: black;
+}
+.head button
+{
+    background-color: rgb(0, 0, 0);
+    padding:5px 30px;
+    border: 0;
+    border-radius:5px ;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+.Menu h6
+{
+    color: white;
+    padding: 5px 0;
+    font-size: 20px;
+}
+.menu
+{
+    width: 30%;
+    margin: 0 auto;
+}
+.menu .items{
+    height: 100px;
+    overflow: auto;
+}
+@media only screen and (max-width: 768px){
+    .btns
+    {
+        background-color: black;
+        padding: 10px 30px;
+        margin-right: 30px;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+        font-size: 30px;
+        font-family: cursive;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .head
+    {
+        margin: 0 auto;
+        background-color: rgb(185, 122, 122);
+        padding: 20px 50px;
+        border-radius: 10px;
+        width: 50%;
+        text-align: center;
+        border: 6px solid rgb(31, 31, 31);
+        min-height: 200px;
+        
+    }
+    .menu
+    {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 380){
+    .btns
+    {
+        background-color: black;
+        padding: 10px 30px;
+        margin-right: 30px;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+        font-size: 30px;
+        font-family: cursive;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .head
+    {
+        margin: 0 auto;
+        background-color: rgb(185, 122, 122);
+        padding: 20px 50px;
+        border-radius: 10px;
+        width: 50%;
+        text-align: center;
+        border: 6px solid rgb(31, 31, 31);
+        min-height: 200px;
+        
+    }
+    .menu
+    {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+}
